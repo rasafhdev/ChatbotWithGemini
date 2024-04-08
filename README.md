@@ -36,5 +36,9 @@ pip install -r requiriments.txt
 ```
 1) Acesse: https://aistudio.google.com/app/u/0/apikey
 2) Crie sua chave (Creat API Key) e guarde-a!
-3) Na sua pasta do projeto, crie o arquivo .env
-4) 
+3) Na sua pasta do projeto, crie o arquivo .env (Precisa ser exatamente assim .env)
+4) Abra o arquivo .env e crie uma variavel conforme abaixo:
+```
+CHAVE_SECRETA_API_GEMINI = 'COLE_SUA_CHAVE_API_AQUI'
+```
+5) Execute o programa :D
