@@ -14,10 +14,10 @@ model = genai.GenerativeModel('gemini-pro')
 chat = model.start_chat(history=[])
 
 while True:
-    question = input('Você: ')
+    question = input('\033[96mVocê: \033[0m')
 
     if question.strip().lower() == 'sair':
         break
 
     response = chat.send_message(question)
-    print(f'\nBot: {response.text}\n')
+    print(f'\n\033[95mBot:\033[0m {response.text}\n')
